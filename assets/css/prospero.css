@@ -58,12 +58,16 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 .card.height_25{ height: 100%; max-height: calc(25% - 20px ); }
 .card.height_50{ height: 100%; max-height: calc(50% - 20px ); }
 .card.height_100{ height: 100%; max-height: calc(100% - 20px ); }
-.card-header { display: flex; flex-direction: column; flex-wrap: nowrap; background: none; border-bottom: none;  padding: 10px 15px; }
+
+
+.card-header { display: flex;  background: none; border-bottom: none;  padding: 10px 15px; }
+.card-header.card-header-icon{ flex-direction: column; flex-wrap: nowrap; }
 .card-header .title{ margin: 0; font-family: var(--font_2);  }
 .card-header div{ width: 100%; }
-.card-header .icon{ margin: calc(var(--gutter_unit) *2 ) auto; }
-.card-header .icon svg{ fill: var(--color_2); width: 32px; height: 32px;  }
-.card:hover .card-header  .icon svg{ fill: white; }
+.card-header .icon{ margin-top: calc( var(--gutter_unit) * 4 ); }
+.card-header .icon svg { width: 32px; height: 32px;  }
+.card-header .icon svg *{ fill: var(--color_2);  }
+.card:hover .card-header  .icon svg *{ fill: white; }
 
 .card-header .right{ display: flex;  justify-content: flex-end; align-items: center; }
 .card-body{  overflow-y: auto; margin-bottom: 15px; padding: 0 15px; }

@@ -31,7 +31,7 @@
 
 
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header  card-header-icon">
                                 <div class="icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="17.367" height="17.367"
                                         viewBox="0 0 17.367 17.367">
