@@ -24,7 +24,7 @@
             <div class="navbar_line">
 
               <span class="label ">View :</span>
-              <a class="view_item active" href="#">
+              <a class="view_item active" href="projects_mosaic.php">
                 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 520 520"
                   style="enable-background:new 0 0 520 520;" xml:space="preserve">
@@ -42,7 +42,7 @@
                   </g>
                 </svg>
               </a>
-              <a class="view_item" href="#">
+              <a class="view_item" href="projects_list.php">
                 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 589 520"
                   style="enable-background:new 0 0 589 520;" xml:space="preserve">
