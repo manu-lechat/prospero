@@ -5,7 +5,7 @@
       </header>
 
       <div class="nav side_nav">
-        <a href="projets.php" class="side_nav_link active">
+        <a href="projects_mosaic.php" class="side_nav_link active">
           <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.5 28.5">
             <g id="icon_Accueil" data-name="icon Accueil">
               <g id="Groupe_247" data-name="Groupe 247">
@@ -29,7 +29,7 @@
             </g>
           </svg>
         </a>
-        <a href="projets.php" class="side_nav_link ">
+        <a href="project.php" class="side_nav_link ">
           <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.4 26.15">
             <g id="icon_corpora_dictionaries" data-name="icon corpora dictionaries">
               <g id="Groupe_269" data-name="Groupe 269">

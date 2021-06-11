@@ -33,7 +33,7 @@
                   <h3 class="title txt_25">Corpora</h3>
                 </div>
                 <div class="right">
-                  <a href="#" class="icon_link edit"><i class="bi bi-pencil-fill"></i>
+                  <a href="#" class="icon_link edit">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16.992" height="16.973" viewBox="0 0 16.992 16.973">
                       <g id="Groupe_122" data-name="Groupe 122" transform="translate(0 0)">
                         <path id="Tracé_49" data-name="Tracé 49"

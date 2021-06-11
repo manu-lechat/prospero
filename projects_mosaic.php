@@ -32,12 +32,15 @@
 
                         <div class="card">
                             <div class="card-header">
-                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
-                            </div>
-                            <div class="card-body">
-                                Modified 29/04/2020<br>
-                                Tags : Ecran, Jeunes, Dangers, <br>
-                                Chateauraynaud Francis
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17.367" height="17.367"
+                                        viewBox="0 0 17.367 17.367">
+                                        <path id="Tracé_2" data-name="Tracé 2"
+                                            d="M243.867,89.71h-6.71V83H233.21v6.71H226.5v3.947h6.71v6.71h3.947v-6.71h6.71Z"
+                                            transform="translate(-226.5 -83)" fill="#707070" />
+                                    </svg>
+                                </div>
+                                <h3 class="txt_20 title"> New project</h3>
                             </div>
                         </div>
 

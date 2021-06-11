@@ -58,9 +58,13 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 .card.height_25{ height: 100%; max-height: calc(25% - 20px ); }
 .card.height_50{ height: 100%; max-height: calc(50% - 20px ); }
 .card.height_100{ height: 100%; max-height: calc(100% - 20px ); }
-.card-header { display: flex; flex-wrap: nowrap; background: none; border-bottom: none;  padding: 10px 15px; }
+.card-header { display: flex; flex-direction: column; flex-wrap: nowrap; background: none; border-bottom: none;  padding: 10px 15px; }
 .card-header .title{ margin: 0; font-family: var(--font_2);  }
 .card-header div{ width: 100%; }
+.card-header .icon{ margin: calc(var(--gutter_unit) *2 ) auto; }
+.card-header .icon svg{ fill: var(--color_2); width: 32px; height: 32px;  }
+.card:hover .card-header  .icon svg{ fill: white; }
+
 .card-header .right{ display: flex;  justify-content: flex-end; align-items: center; }
 .card-body{  overflow-y: auto; margin-bottom: 15px; padding: 0 15px; }
 .card .icon_link{ width: 18px; height: 18px; margin: 0 10px; }
@@ -161,8 +165,8 @@ tr:last-child td { border: none!important; }
 
 .main_article{ font-style:italic }
 
-.cartouche{ display: flex; flex-direction: column;  width: 100%;  margin: var(--gutter_unit); }
-.cartouche .cartouche_item{  margin: 0.25em 0; }
+.cartouche{ display: flex; flex-direction: column;  width: 100%;  padding: var(--gutter_unit); }
+.cartouche .cartouche_item{  padding: 0.25em 0; }
 .cartouche label{ margin-right: .5em; opacity: 0.8; }
 .cartouche .label{ opacity: 0.8; }
 .cartouche .separation{ border-bottom: 1px solid var(--color_1); opacity: 0.8; margin: calc( var(--gutter_unit) * 2 ) 0 ; }
@@ -178,6 +182,16 @@ tr:last-child td { border: none!important; }
 .template_mosaique .mosaique_wrapper .card .card-body { padding-top: 0; }
 .template_mosaique .grid_side_wrapper { position: absolute; right: 0; }
 .template_mosaique .grid_side_wrapper .cartouche{ padding:var(--gutter_unit); }
+
+
+
+.template_listing .table .active, .table-hover>tbody>tr.active:hover {   background: linear-gradient(#6FD0FC, #6BA4F2);  color: white; }
+
+.template_listing .table>:not(caption)>*>* {  padding: 1.4rem .5rem; }
+.template_listing .table tr{ transition: all 1s; }
+.template_listing .table tr:hover{ background: var(--color_4);}
+.template_listing .listing_modale_wrapper{ background: var(--color_2) ; width: 360px; padding: var(--gutter_unit); max-height: 80%; color: white; border-radius: 15px; position: absolute; top: 50%; left: 50%; transform: translateY(-50%); }
+
 
 /*
 
