@@ -53,7 +53,7 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 .main_content{ background: var(--color_7); padding: 10px; height: 100%; overflow-x: hidden; overflow-y: auto; }
 .screenHeight.col{  max-height: 100%; height: calc(85vh - var(--gutter_unit) * 2);  overflow: auto; display: flex; flex-direction: column; justify-content: flex-start; overflow: hidden; }
 
-.w2ui-layout > div .w2ui-panel .w2ui-panel-content { padding: calc(var(--gutter_unit) * 0.5) ; background-color: none!important; }
+.w2ui-layout > div .w2ui-panel .w2ui-panel-content { padding: calc(var(--gutter_unit) * 0.5) ; background: none!important; }
 .w2ui-layout > div .w2ui-panel .w2ui-panel-content .w2ui-panel-content {  padding: 0; }
 
 /* cards */
