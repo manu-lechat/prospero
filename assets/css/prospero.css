@@ -53,8 +53,11 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 .main_content{ background: var(--color_7); padding: 10px; height: 100%; overflow-x: hidden; overflow-y: auto; }
 .screenHeight.col{  max-height: 100%; height: calc(85vh - var(--gutter_unit) * 2);  overflow: auto; display: flex; flex-direction: column; justify-content: flex-start; overflow: hidden; }
 
+.w2ui-layout > div .w2ui-panel .w2ui-panel-content { border:2px solid royalblue; padding: calc(var(--gutter_unit) * 0.5) ; }
+.w2ui-layout > div .w2ui-panel .w2ui-panel-content .w2ui-panel-content { border:2px solid greenyellow; padding: 0; }
+
 /* cards */
-.card{ width: 100%; background: #FFFFFF; max-height: 100%; height: 100%;margin: var(--gutter_unit); auto; box-shadow: 0px 0px 3px #00000017; border-radius: 18px; border:none; }
+.card{ width: 100%; background: #FFFFFF; max-height: 100%; height: 100%;margin: 0; border:1px solid red; box-shadow: 0px 0px 3px #00000017; border-radius: 18px;  }
 .card.height_25{ height: 100%; max-height: calc(25% - 20px ); }
 .card.height_50{ height: 100%; max-height: calc(50% - 20px ); }
 .card.height_100{ height: 100%; max-height: calc(100% - 20px ); }
@@ -116,7 +119,7 @@ tr:last-child td { border: none!important; }
 .modal-content .btn{ min-width: 8em; }
 .modal-footer { justify-content: space-evenly; border:none }
 .modal-body{ text-align: center; min-height: 200px; padding: 30px; display: flex; justify-content: center; align-items: center; }
-.dropdown-menu{ padding: 30px; border-radius: 15px; }
+.main_header_right .dropdown-menu{ padding: 30px; border-radius: 15px; }
 .form_item{ margin-bottom: 10px; }
 .showgrid div{ border:1px dotted cyan  }
 
