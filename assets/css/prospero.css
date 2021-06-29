@@ -77,7 +77,7 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 .card:hover .card-header  .icon svg *{ fill: white; }
 
 .card-header .right{ display: flex;  justify-content: flex-end; align-items: center; }
-.card-body{  overflow-y: auto; border:2px solid royalblue;  margin-bottom: 15px; padding: 0 15px; }
+.card-body{  overflow-y: auto;  margin-bottom: 15px; padding: 0 15px; }
 .card .icon_link{ width: 18px; height: 18px; margin: 0 10px; }
 
 .card .card-body{   }
