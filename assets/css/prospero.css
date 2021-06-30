@@ -223,8 +223,10 @@ tr:last-child td { border: none!important; }
 
 .sort-filters{ width: 20px; height: 20px;  }
 .sort-filter{  position: relative; background: #F6F6F6; width: 17px; height: 15px; border-radius: 5px; display: block; }
-.sort-filter:after{ content: ""; width: 0; z-index: 2; height: 0; border-left: 5px solid transparent;  border-right: 5px solid transparent;   border-top:5px solid #999; position: absolute;    top: 50%;  left: 50%; transform: translateX(-2px); }
+.sort-filter:after{ content: ""; width: 0; z-index: 2; height: 0; font-size: 0; border-left: 5px solid transparent;  border-right: 5px solid transparent;   border-top:5px solid #999; position: absolute;  top: 50%;  left: 50%; transform: translateX(-5px); }
+.sort-filter:hover:after{  border-top:5px solid #333; }
 .sort-filter-desc:after{ border-bottom:5px solid #999;  border-top:none; } 
+.sort-filter-desc:hover:after{  border-top:5px solid #333; }
 
 /*
 
