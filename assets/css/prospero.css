@@ -131,6 +131,15 @@ tr:last-child td { border: none!important; }
 .form_item{ margin-bottom: 10px; }
 .showgrid div{ border:1px dotted cyan  }
 
+/* loader_screen */
+
+.loader_screen{ position: fixed; width: 100%; display: flex; align-items: center;  justify-content: center; height: 100vh; z-index: 100; top: 0; left: 0; background: #ffffff; }
+.loader_screen .logo_wrapper{ width: 40vw; transform: translateY(-15%);  }
+.loader_screen.loader_screen_anim .logo_wrapper{ opacity: 0;   animation: logo_wrapper_anim 3s cubic-bezier(0.17, 0.9, 0.46, 1) .2s  1 normal forwards }
+.loader_screen.loader_screen_anim{ animation: intro_wrapper_anim .3s linear 3s  1 normal forwards }
+
+/* side_container */
+
 .side_container{ border-right:1px solid var(--color_4); width: 89px; display: flex; flex-direction: column; } 
 .side_container .side_header{  position: relative; display: flex;  flex-direction: column;     justify-content: space-around; height: 15vh;      }
 .side_container .side_header .logo{ width: 39px; margin: auto; }
@@ -235,3 +244,27 @@ tr:last-child td { border: none!important; }
 }
 
 
+/* 
+/^^              /^^                                                                        
+/^^            /^                                                                           
+/^^  /^^     /^/^ /^     /^ /^^^        /^^         /^^^ /^^ /^^         /^^          /^^^^ 
+/^^ /^^        /^^        /^^         /^^  /^^       /^^  /^  /^^      /^   /^^      /^^    
+/^/^^          /^^        /^^        /^^   /^^       /^^  /^  /^^     /^^^^^ /^^       /^^^ 
+/^^ /^^        /^^        /^^        /^^   /^^       /^^  /^  /^^     /^                 /^^
+/^^  /^^       /^^       /^^^          /^^ /^^^     /^^^  /^  /^^       /^^^^        /^^ /^^
+ */
+
+
+
+
+@keyframes intro_wrapper_anim{
+   0%{ opacity:1; }
+   99%{ opacity:0;  width:100%; height: 100vh; top: 0px; }
+   100%{ width:0; height: 0; top: -10px; overflow: hidden; }
+}
+
+@keyframes logo_wrapper_anim{
+   0%{ opacity:0; }
+   80%{ opacity:1 }
+   100%{ opacity:0 }
+}
