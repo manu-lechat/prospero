@@ -56,6 +56,10 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 .w2ui-layout > div .w2ui-panel .w2ui-panel-content { padding: calc(var(--gutter_unit) * 0.5) ; background: none!important; }
 .w2ui-layout > div .w2ui-panel .w2ui-panel-content .w2ui-panel-content {  padding: 0; }
 
+.w2ui-panel{ border:1px solid red; padding: 5px; }
+
+
+
 /* cards */
 
 
@@ -219,7 +223,7 @@ tr:last-child td { border: none!important; }
 .template_listing .listing_modale_wrapper{ background: var(--color_2) ; width: 360px; padding: var(--gutter_unit); max-height: 80%; color: white; border-radius: 15px; position: absolute; top: 50%; left: 50%; transform: translateY(-50%); }
 
 
-.dropzone-panel{ animation: dropzone_anim .7s linear infinite normal forwards; background-image: url('../images/icon_import.png'); background-repeat: no-repeat; background-position: center center; background-size: 40px auto;   border: 2px dashed var(--color_2)!important; border-radius: 20px; width: 100%;  height: 100px; margin: 20px 0; }
+.dropzone-panel{ animation: dropzone_anim 2.7s cubic-bezier(0, 0, 0.04, 1.08)  infinite normal forwards; background-image: url('../images/icon_import.png'); background-repeat: no-repeat; background-position: center center; background-size: 40px auto;   border: 2px dashed var(--color_2)!important; border-radius: 20px; width: 100%;  height: 100px; margin: 20px 0; }
 
 .sort-filters{ width: 20px; height: 20px;  }
 .sort-filter{  position: relative; font-size: 0;  background: #F6F6F6; width: 17px; height: 15px; border-radius: 5px; display: block; }
@@ -227,7 +231,7 @@ tr:last-child td { border: none!important; }
 .sort-filter:hover:after{  border-top:5px solid #999; }
 .sort-filter-desc:after{ border-bottom:5px solid #CCCCCC;  border-top:none; } 
 .sort-filter-desc:hover:after{  border-top:5px solid #999; }
-.sort-filter.selected:after{  border-top:5px solid var(--color_2); }
+.sort-filter-desc.selected:after{  border-top:5px solid var(--color_2); }
 
 
 /*
@@ -269,8 +273,9 @@ tr:last-child td { border: none!important; }
 
 
 @keyframes dropzone_anim{
-   0%{ background-position: center 40%; }
-   100%{ background-position: center 60%; }
+   0%{ background-position: center 40%;  }
+   70%{ background-position: center 50%;  }
+   100%{ background-position: center 50%; }
 }
 
 @keyframes intro_wrapper_anim{
