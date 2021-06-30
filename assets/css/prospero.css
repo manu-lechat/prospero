@@ -81,6 +81,19 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 .card:hover .card-header  .icon svg *{ fill: white; }
 
 .card-header .right{ display: flex;  justify-content: flex-end; align-items: center; }
+
+.card-header .dropdown-menu { padding: 1em 0; line-height: 1.6em; }
+.card-header .btn{ width: 33px; height: 33px;   float: right; }
+.card-header .btn svg *{ fill: var(--color_1);  }
+.card-header .btn:hover svg *{ fill: var(--color_2); }
+
+.card-header .dropdown-item:hover { color: var(--color_2); }
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
 .card-body{  overflow-y: auto;  margin-bottom: 15px; padding: 0 15px; }
 .card .icon_link{ width: 18px; height: 18px; margin: 0 10px; }
 
@@ -229,9 +242,11 @@ tr:last-child td { border: none!important; }
 .sort-filter{  position: relative; font-size: 0;  background: #F6F6F6; width: 17px; height: 15px; border-radius: 5px; display: block; }
 .sort-filter:after{ content: ""; width: 0; z-index: 2; height: 0; border-left: 5px solid transparent;  border-right: 5px solid transparent;   border-top:5px solid #CCCCCC; position: absolute;  top: 50%;  left: 50%; transform: translateX(-5px); }
 .sort-filter:hover:after{  border-top:5px solid #999; }
+
+
 .sort-filter-desc:after{ border-bottom:5px solid #CCCCCC;  border-top:none; } 
-.sort-filter-desc:hover:after{  border-bottom:5px solid #999; }
-.sort-filter-desc.selected:after{  border-bottom:5px solid var(--color_2); }
+.sort-filter-desc:hover:after{  border-bottom:5px solid #999;   border-top:none;}
+.sort-filter-desc.selected:after{  border-bottom:5px solid var(--color_2);   border-top:none; }
 
 
 /*
