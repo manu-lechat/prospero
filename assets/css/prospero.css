@@ -219,7 +219,7 @@ tr:last-child td { border: none!important; }
 .template_listing .listing_modale_wrapper{ background: var(--color_2) ; width: 360px; padding: var(--gutter_unit); max-height: 80%; color: white; border-radius: 15px; position: absolute; top: 50%; left: 50%; transform: translateY(-50%); }
 
 
-.dropzone-panel{   background-image: url('../images/icon_import.png'); background-repeat: no-repeat; background-position: center center; background-size: 40px auto;   border: 2px dashed var(--color_2)!important; border-radius: 20px; width: 100%;  height: 100px; margin: 20px 0; }
+.dropzone-panel{ animation: dropzone_anim 3s linear infinite normal forwards; background-image: url('../images/icon_import.png'); background-repeat: no-repeat; background-position: center center; background-size: 40px auto;   border: 2px dashed var(--color_2)!important; border-radius: 20px; width: 100%;  height: 100px; margin: 20px 0; }
 
 .sort-filters{ width: 20px; height: 20px;  }
 .sort-filter{ background: #F6F6F6; width: 17px; height: 15px; border-radius: 5px; display: block; }
@@ -264,6 +264,10 @@ tr:last-child td { border: none!important; }
 
 
 
+@keyframes dropzone_anim{
+   0%{ background-position: center 40%; }
+   100%{ background-position: center 60%; }
+}
 
 @keyframes intro_wrapper_anim{
    0%{ opacity:1; }
