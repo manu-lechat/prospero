@@ -201,7 +201,7 @@ tr:last-child td { border: none!important; }
 
 .template_mosaique{}
 .template_mosaique .mosaique_wrapper{ display: flex; flex-direction: row; flex-wrap: wrap; padding: 0; }
-.template_mosaique .mosaique_wrapper .card{ display: flex; flex-direction: column; justify-content: center; background: linear-gradient(#fff, #fff);  overflow: hidden; width:calc(var(--fontSize_unit) * 24); height: calc(var(--fontSize_unit) * 24);  margin: var(--gutter_unit); text-align: center; transition: all .4s;   }
+.template_mosaique .mosaique_wrapper .card{ display: flex; flex-direction: column; justify-content: center; background: linear-gradient(#fff, #fff);  overflow: hidden; width:calc(var(--fontSize_unit) * 24); height: calc(var(--fontSize_unit) * 24);  margin: var(--gutter_unit); text-align: center;  }
 .template_mosaique .mosaique_wrapper .card:hover{ background: linear-gradient(#6FD0FC, #6BA4F2); color: white; cursor: pointer; transition: all .3s;  }
 .template_mosaique .mosaique_wrapper .card .title{ text-align: center;  width: 100%; text-align: center; font-family: var(--font_2); margin-top: 1em; }
 .template_mosaique .mosaique_wrapper .card .card-header { padding-top: 0;  }
