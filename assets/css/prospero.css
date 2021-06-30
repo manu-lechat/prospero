@@ -227,6 +227,8 @@ tr:last-child td { border: none!important; }
 .sort-filter:hover:after{  border-top:5px solid #333; }
 .sort-filter-desc:after{ border-bottom:5px solid #999;  border-top:none; } 
 .sort-filter-desc:hover:after{  border-top:5px solid #333; }
+.sort-filter.selected:after{  border-top:5px solid var(--color_2); }
+
 
 /*
 
