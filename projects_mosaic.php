@@ -50,7 +50,17 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
+                                aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam qu
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
+                            </div>
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -62,7 +72,7 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -74,7 +84,18 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
+                                Modified 29/04/2020<br>
+                                Tags : Ecran, Jeunes, Dangers, <br>
+                                Chateauraynaud Francis
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
+                            </div>
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -86,7 +107,7 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -98,7 +119,7 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -110,7 +131,7 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -122,7 +143,7 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -134,7 +155,7 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -146,7 +167,7 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -158,17 +179,7 @@
                             <div class="card-header">
                                 <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
                             </div>
-                            <div class="card-body">
-                                Modified 29/04/2020<br>
-                                Tags : Ecran, Jeunes, Dangers, <br>
-                                Chateauraynaud Francis
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
-                            </div>
-                            <div class="card-body">
+                            <div class="card-body txt_13">
                                 Modified 29/04/2020<br>
                                 Tags : Ecran, Jeunes, Dangers, <br>
                                 Chateauraynaud Francis
@@ -176,74 +187,6 @@
                         </div>
 
 
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
-                            </div>
-                            <div class="card-body">
-                                Modified 29/04/2020<br>
-                                Tags : Ecran, Jeunes, Dangers, <br>
-                                Chateauraynaud Francis
-                            </div>
-                        </div>
-
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
-                            </div>
-                            <div class="card-body">
-                                Modified 29/04/2020<br>
-                                Tags : Ecran, Jeunes, Dangers, <br>
-                                Chateauraynaud Francis
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
-                            </div>
-                            <div class="card-body">
-                                Modified 29/04/2020<br>
-                                Tags : Ecran, Jeunes, Dangers, <br>
-                                Chateauraynaud Francis
-                            </div>
-                        </div>
-
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
-                            </div>
-                            <div class="card-body">
-                                Modified 29/04/2020<br>
-                                Tags : Ecran, Jeunes, Dangers, <br>
-                                Chateauraynaud Francis
-                            </div>
-                        </div>
-
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
-                            </div>
-                            <div class="card-body">
-                                Modified 29/04/2020<br>
-                                Tags : Ecran, Jeunes, Dangers, <br>
-                                Chateauraynaud Francis
-                            </div>
-                        </div>
-
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="txt_20 title">Participatory Sciences and Biodiversity</h3>
-                            </div>
-                            <div class="card-body">
-                                Modified 29/04/2020<br>
-                                Tags : Ecran, Jeunes, Dangers, <br>
-                                Chateauraynaud Francis
-                            </div>
-                        </div>
 
 
 
@@ -305,11 +248,18 @@
         </section>
     </main>
 
+  
     <script src="assets/js/prefixfree.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>        
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" 
+            integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async>
     </script>
 </body>
 

@@ -200,10 +200,11 @@ tr:last-child td { border: none!important; }
 
 .template_mosaique{}
 .template_mosaique .mosaique_wrapper{ display: flex; flex-direction: row; flex-wrap: wrap; padding: 0; }
-.template_mosaique .mosaique_wrapper .card{  font-size: .8vw;  width:calc(100% / 5 - var(--gutter_unit) * 2); height: auto; max-height: auto; margin: var(--gutter_unit); text-align: center; transition: all .17s;   }
-.template_mosaique .mosaique_wrapper .card:hover{ background: linear-gradient(#6FD0FC, #6BA4F2); color: white; cursor: pointer;  }
-.template_mosaique .mosaique_wrapper .card .title{  font-size: 1.2vw; min-height: 3em; text-align: center; font-family: var(--font_2); margin-top: 1em; }
-.template_mosaique .mosaique_wrapper .card .card-body { padding-top: 0; }
+.template_mosaique .mosaique_wrapper .card{  background: linear-gradient(#fff, #fff);  overflow: hidden; width:calc(var(--fontSize_unit) * 24); height: calc(var(--fontSize_unit) * 24);  margin: var(--gutter_unit); text-align: center; transition: all .4s;   }
+.template_mosaique .mosaique_wrapper .card:hover{ background: linear-gradient(#6FD0FC, #6BA4F2); color: white; cursor: pointer; transition: all .3s;  }
+.template_mosaique .mosaique_wrapper .card .title{ text-align: center;  min-height: 3em; text-align: center; font-family: var(--font_2); margin-top: 1em; }
+.template_mosaique .mosaique_wrapper .card .card-header { padding-top: 0;  }
+.template_mosaique .mosaique_wrapper .card .card-body { padding-top: 0;  max-height: 8em;  white-space: wrap;  overflow: hidden; text-overflow: ellipsis; }
 .template_mosaique .grid_side_wrapper { position: absolute; right: 0; }
 .template_mosaique .grid_side_wrapper .cartouche{ padding:var(--gutter_unit); }
 
@@ -216,6 +217,8 @@ tr:last-child td { border: none!important; }
 .template_listing .table tr:hover{ background: var(--color_4);}
 .template_listing .listing_modale_wrapper{ background: var(--color_2) ; width: 360px; padding: var(--gutter_unit); max-height: 80%; color: white; border-radius: 15px; position: absolute; top: 50%; left: 50%; transform: translateY(-50%); }
 
+
+.dropzone-panel{     border: 2px dashed var(--color_2)!important; border-radius: 20px; width: 100%;  height: 100px; margin: 20px 0; }
 
 
 /*
