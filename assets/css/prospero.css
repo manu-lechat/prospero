@@ -56,7 +56,7 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 .w2ui-layout > div .w2ui-panel .w2ui-panel-content { padding: calc(var(--gutter_unit) * 0.5) ; background: none!important; }
 .w2ui-layout > div .w2ui-panel .w2ui-panel-content .w2ui-panel-content {  padding: 0; }
 
-.w2ui-panel{ border:1px solid red; padding: 5px; }
+.w2ui-panel{  }
 
 
 
