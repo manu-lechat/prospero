@@ -230,8 +230,8 @@ tr:last-child td { border: none!important; }
 .sort-filter:after{ content: ""; width: 0; z-index: 2; height: 0; border-left: 5px solid transparent;  border-right: 5px solid transparent;   border-top:5px solid #CCCCCC; position: absolute;  top: 50%;  left: 50%; transform: translateX(-5px); }
 .sort-filter:hover:after{  border-top:5px solid #999; }
 .sort-filter-desc:after{ border-bottom:5px solid #CCCCCC;  border-top:none; } 
-.sort-filter-desc:hover:after{  border-top:5px solid #999; }
-.sort-filter-desc.selected:after{  border-top:5px solid var(--color_2); }
+.sort-filter-desc:hover:after{  border-bottom:5px solid #999; }
+.sort-filter-desc.selected:after{  border-bottom:5px solid var(--color_2); }
 
 
 /*
