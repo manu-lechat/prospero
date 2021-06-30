@@ -248,6 +248,7 @@ tr:last-child td { border: none!important; }
 .sort-filter-desc:hover:after{  border-bottom:5px solid #999;   border-top:none;}
 .sort-filter-desc.selected:after{  border-bottom:5px solid var(--color_2);   border-top:none; }
 
+.form-check {    float: left;    clear: left; }
 
 /*
 
