@@ -156,6 +156,7 @@ tr:last-child td { border: none!important; }
 
 .main_header{ padding: calc(var(--gutter_unit) * 2) calc(var(--gutter_unit) * 3); height:120px; min-height: 15vh;  align-items: center;  justify-content: flex-start;  border-bottom:1px solid var(--color_4); position: relative; display: flex;  }
 .main_header .main_header_left{   width: 100%; height: auto; min-height: 84px;  display: flex;  flex-direction: column;  justify-content: space-between; }
+.main_header .main_header_left h2{ max-width: 600px; }
 .main_header .search_container{ height: 60%; text-align: left; display: flex; flex-direction: column; justify-content: space-around; }
 .main_header .search_form{ border-radius: 3em; background: var(--color_6); width: 16em; display: flex; }
 .main_header .search_form .search_input{ color: var(--color_3); outline: none; border: none; padding: 0.3em 0 0 1.5em ; background: none; width: 16em; }
@@ -200,9 +201,9 @@ tr:last-child td { border: none!important; }
 
 .template_mosaique{}
 .template_mosaique .mosaique_wrapper{ display: flex; flex-direction: row; flex-wrap: wrap; padding: 0; }
-.template_mosaique .mosaique_wrapper .card{  background: linear-gradient(#fff, #fff);  overflow: hidden; width:calc(var(--fontSize_unit) * 24); height: calc(var(--fontSize_unit) * 24);  margin: var(--gutter_unit); text-align: center; transition: all .4s;   }
+.template_mosaique .mosaique_wrapper .card{ display: flex; flex-direction: column; justify-content: center; background: linear-gradient(#fff, #fff);  overflow: hidden; width:calc(var(--fontSize_unit) * 24); height: calc(var(--fontSize_unit) * 24);  margin: var(--gutter_unit); text-align: center; transition: all .4s;   }
 .template_mosaique .mosaique_wrapper .card:hover{ background: linear-gradient(#6FD0FC, #6BA4F2); color: white; cursor: pointer; transition: all .3s;  }
-.template_mosaique .mosaique_wrapper .card .title{ text-align: center;  min-height: 3em; text-align: center; font-family: var(--font_2); margin-top: 1em; }
+.template_mosaique .mosaique_wrapper .card .title{ text-align: center;  width: 100%; text-align: center; font-family: var(--font_2); margin-top: 1em; }
 .template_mosaique .mosaique_wrapper .card .card-header { padding-top: 0;  }
 .template_mosaique .mosaique_wrapper .card .card-body { padding-top: 0;  max-height: 8em;  white-space: wrap;  overflow: hidden; text-overflow: ellipsis; }
 .template_mosaique .grid_side_wrapper { position: absolute; right: 0; }
