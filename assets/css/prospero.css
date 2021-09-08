@@ -264,7 +264,6 @@ th:nth-child(1):before{ display: none; }
 .tags-input .badge .remove{ border: none!important; opacity: 0.3; font-size: 0.8em; }
 .tags-input .badge:hover .remove{  opacity: 1; transition: all .1s;}
 
-.tags-input .badge .remove { border: none; }
 
 
 
