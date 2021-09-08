@@ -225,9 +225,8 @@ tr:last-child td { border: none!important; }
 .template_mosaique .mosaique_wrapper .card .card-header { padding-top: 0;  }
 .template_mosaique .mosaique_wrapper .card .card-body { padding-top: 0;  max-height: 8em;  white-space: wrap;  overflow: hidden; text-overflow: ellipsis; }
 .template_mosaique .grid_side_wrapper { position: absolute; right: 0; }
-.template_mosaique .grid_side_wrapper .cartouche{ padding:var(--gutter_unit); }
-
-
+.template_mosaique .grid_side_wrapper .cartouche{ padding:var(--gutter_unit); max-height: calc( 85vh - var(--gutter_unit) * 2 );  }
+.template_mosaique .grid_side_wrapper .cartouche .intro{ max-height: 35vh; overflow: auto; }
 
 .template_listing .table .active, .table-hover>tbody>tr.active:hover {   background: linear-gradient(#6FD0FC, #6BA4F2);  color: white; }
 
