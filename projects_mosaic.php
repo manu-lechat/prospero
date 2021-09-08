@@ -238,7 +238,7 @@
                             <div class="separation"></div>
 
 
-                          <table class="cartouche_users">
+                <table class="cartouche_users">
 
                             <tr>
                                 <th class="th members" colspan="2">Members</th>
@@ -246,25 +246,45 @@
                                 <th class="th privilege">Privilege</th>
                             </tr>
                             <tr>
-                                <td class="icon"> <img src="assets/images/icon_member.svg" alt=""></td>
+                                <td class="icon">
+                                  <!-- member icon -->
+                                  <svg id="Groupe_10" data-name="Groupe 10" xmlns="http://www.w3.org/2000/svg" width="8.028" height="13.059" viewBox="0 0 8.028 13.059">
+                                    <path id="Tracé_4" data-name="Tracé 4" d="M5.643,0A2.482,2.482,0,1,0,8.126,2.482,2.489,2.489,0,0,0,5.643,0Zm0,5.474A4.013,4.013,0,0,0,1.631,9.488v3.163a.408.408,0,0,0,.406.407H9.252a.41.41,0,0,0,.407-.407V9.488A4.016,4.016,0,0,0,5.643,5.474Z" transform="translate(-1.631)" fill="#707070"/>
+                                  </svg>
+                                </td>
                                 <td class="name">Jaques sirabelle</td>
                                 <td class="vertical"></td>
                                 <td class="function">Read & write</td>
                             </tr>
                             <tr>
-                                <td class="icon"> <img src="assets/images/icon_member.svg" alt=""></td>
+                                <td class="icon">
+                                  <!-- member icon -->
+                                  <svg id="Groupe_10" data-name="Groupe 10" xmlns="http://www.w3.org/2000/svg" width="8.028" height="13.059" viewBox="0 0 8.028 13.059">
+                                    <path id="Tracé_4" data-name="Tracé 4" d="M5.643,0A2.482,2.482,0,1,0,8.126,2.482,2.489,2.489,0,0,0,5.643,0Zm0,5.474A4.013,4.013,0,0,0,1.631,9.488v3.163a.408.408,0,0,0,.406.407H9.252a.41.41,0,0,0,.407-.407V9.488A4.016,4.016,0,0,0,5.643,5.474Z" transform="translate(-1.631)" fill="#707070"/>
+                                  </svg>
+                                </td>
                                 <td class="name">Paul Bismuth</td>
                                 <td class="vertical"></td>
                                 <td class="function">Read & write</td>
                             </tr>
                             <tr>
-                                <td class="icon"> <img src="assets/images/icon_member.svg" alt=""></td>
+                               <td class="icon">
+                                  <!-- member icon -->
+                                  <svg id="Groupe_10" data-name="Groupe 10" xmlns="http://www.w3.org/2000/svg" width="8.028" height="13.059" viewBox="0 0 8.028 13.059">
+                                    <path id="Tracé_4" data-name="Tracé 4" d="M5.643,0A2.482,2.482,0,1,0,8.126,2.482,2.489,2.489,0,0,0,5.643,0Zm0,5.474A4.013,4.013,0,0,0,1.631,9.488v3.163a.408.408,0,0,0,.406.407H9.252a.41.41,0,0,0,.407-.407V9.488A4.016,4.016,0,0,0,5.643,5.474Z" transform="translate(-1.631)" fill="#707070"/>
+                                  </svg>
+                                </td>
                                 <td class="name">Jaques rasolomanana</td>
                                 <td class="vertical"></td>
                                 <td class="function">Read only</td>
                             </tr>
                             <tr>
-                                <td class="icon"> <img src="assets/images/icon_members.svg" alt=""></td>
+                                   <td class="icon">
+                                  <!-- members icon -->
+                                  <svg id="Groupe_13" data-name="Groupe 13" xmlns="http://www.w3.org/2000/svg" width="20.35" height="13.708" viewBox="0 0 20.35 13.708">
+                                    <path id="Tracé_5" data-name="Tracé 5" d="M4.291,1.382A2.746,2.746,0,1,0,6.235,6.06a3.949,3.949,0,0,1,.589-2.985A2.757,2.757,0,0,0,4.291,1.382Zm11.766,0a2.757,2.757,0,0,0-2.533,1.692,3.978,3.978,0,0,1,.668,2.2,3.852,3.852,0,0,1-.079.784,2.745,2.745,0,1,0,1.945-4.68ZM10.175,2.531A2.746,2.746,0,1,0,12.92,5.278,2.758,2.758,0,0,0,10.175,2.531ZM4.291,7.348A4.3,4.3,0,0,0,0,11.643v1.663a.636.636,0,0,0,.635.637H4.61V12.795A5.447,5.447,0,0,1,7.026,8.341,4.281,4.281,0,0,0,4.291,7.348Zm11.766,0a4.28,4.28,0,0,0-2.731.99,5.451,5.451,0,0,1,2.416,4.454v1.149h3.973a.636.636,0,0,0,.635-.637V11.646A4.3,4.3,0,0,0,16.057,7.35ZM10.175,8.5a4.294,4.294,0,0,0-4.291,4.3v1.661a.635.635,0,0,0,.632.635h7.314a.637.637,0,0,0,.639-.635h0V12.795A4.3,4.3,0,0,0,10.175,8.5Z" transform="translate(0 -1.382)" fill="#707070"/>
+                                  </svg>
+                                </td>
                                 <td class="name">Group</td>
                                 <td class="vertical"></td>
                                 <td class="function">Read only</td>
