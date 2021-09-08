@@ -209,21 +209,6 @@
                                 attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
                                 attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
                                 attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
-                                attentatoire aux libertés individuelles à partir de tribunes publiées du 20 avril au 5
                                 mai.</p>
                             <div class="cartouche_item">
                                 <span class="label">Created:</span>
@@ -251,10 +236,41 @@
                             </div>
 
                             <div class="separation"></div>
-                            <div class="row">
-                                <div class="col">col</div>
-                                <div class="col">col</div>
-                            </div>
+
+
+                          <table class="cartouche_users">
+
+                            <tr>
+                                <th class="th members" colspan="2">Members</th>
+                                <th class="vertical"></th>
+                                <th class="th privilege">Privilege</th>
+                            </tr>
+                            <tr>
+                                <td class="icon"> <img src="assets/images/icon_member.svg" alt=""></td>
+                                <td class="name">Jaques sirabelle</td>
+                                <td class="vertical"></td>
+                                <td class="function">Read & write</td>
+                            </tr>
+                            <tr>
+                                <td class="icon"> <img src="assets/images/icon_member.svg" alt=""></td>
+                                <td class="name">Paul Bismuth</td>
+                                <td class="vertical"></td>
+                                <td class="function">Read & write</td>
+                            </tr>
+                            <tr>
+                                <td class="icon"> <img src="assets/images/icon_member.svg" alt=""></td>
+                                <td class="name">Jaques rasolomanana</td>
+                                <td class="vertical"></td>
+                                <td class="function">Read only</td>
+                            </tr>
+                            <tr>
+                                <td class="icon"> <img src="assets/images/icon_members.svg" alt=""></td>
+                                <td class="name">Group</td>
+                                <td class="vertical"></td>
+                                <td class="function">Read only</td>
+                            </tr>
+                            </table>
+                         
                         </article>
 
 

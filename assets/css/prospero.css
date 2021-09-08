@@ -124,9 +124,9 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 .table .active, .table-hover>tbody>tr.active:hover { background-color: var(--color_2); color: white; }
 .table-hover>tbody>tr:hover { cursor: pointer; }
 th { font-weight: normal; position: relative; padding-left: .8rem!important; }
-th:before{ content: ""; width: 1px; height: 60%; top: 20%; left: 0; position: absolute; background-color: var(--color_5); }
+/* th:before{ content: ""; width: 1px; height: 60%; top: 20%; left: 0; position: absolute; background-color: var(--color_5); } */
 th:nth-child(1):before{ display: none; }
-tr:last-child td { border: none!important; }
+/* tr:last-child td { border: none!important; } */
 
 .table>:not(:last-child)>:last-child>* { border-bottom-color : var(--color_5); }
 .table>:not(caption)>*>* { padding: .4rem .5rem; }
@@ -225,8 +225,18 @@ tr:last-child td { border: none!important; }
 .template_mosaique .mosaique_wrapper .card .card-header { padding-top: 0;  }
 .template_mosaique .mosaique_wrapper .card .card-body { padding-top: 0;  max-height: 8em;  white-space: wrap;  overflow: hidden; text-overflow: ellipsis; }
 .template_mosaique .grid_side_wrapper { position: absolute; right: 0; }
-.template_mosaique .grid_side_wrapper .cartouche{ padding:var(--gutter_unit); max-height: calc( 85vh - var(--gutter_unit) * 2 );  }
-.template_mosaique .grid_side_wrapper .cartouche .intro{ max-height: 35vh;    overflow: auto!important; }
+.template_mosaique .grid_side_wrapper .cartouche{ padding:var(--gutter_unit); max-height: calc( 85vh - var(--gutter_unit) * 2 );  overflow: auto!important;  }
+.template_mosaique .grid_side_wrapper .cartouche .intro{    }
+
+.template_mosaique .cartouche_users td{  }
+.template_mosaique .cartouche_users td.icon{  width:40px; display: flex;    justify-content: center; padding: 10px; }
+
+.template_mosaique .cartouche_users .vertical{  width:5%; border-left: 1px solid #707070; margin-right: 10px;; }
+.template_mosaique .cartouche_users .th{  width: 50%;  font-size: 1.2em; padding: 1em 0;  padding-left: 10px!important; }
+.template_mosaique .cartouche_users .members{   }
+.template_mosaique .cartouche_users .function{     padding-left: 10px!important;  font-size: .9em ;}
+.template_mosaique .cartouche_users .name{ padding:10px; font-size: .9em ; }
+
 
 .template_listing .table .active, .table-hover>tbody>tr.active:hover {   background: linear-gradient(#6FD0FC, #6BA4F2);  color: white; }
 
