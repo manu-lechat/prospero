@@ -94,7 +94,7 @@ a:hover{    color: var(--color_1);;    text-decoration: none; }
 }
 
 .card-body{  overflow-y: auto; height: auto; margin-bottom: 15px; padding: 0 15px;   }
-
+.card-body .cartouche{ padding: 15px 0; }
 .card .icon_link{ width: 18px; height: 18px; margin: 0 10px; }
 
 .card .card-body{   }
@@ -261,7 +261,11 @@ th:nth-child(1):before{ display: none; }
 .form-check {    float: left;    clear: left; }
 
 .tags-input .badge{ background:#F6F6F6; border: none; border-radius:20px; ; }
+.tags-input .badge .remove{ border: none; }
+
 .tags-input .badge .remove { border: none; }
+
+
 
 /* [page=settings]  */
  .settings-general-menu   .card-body {  height: calc( 85vh - 140px ); overflow-y: auto;  }
