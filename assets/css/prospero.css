@@ -272,7 +272,7 @@ th:nth-child(1):before{ display: none; }
 .tags-input .badge:hover .remove{  opacity: 1; transition: all .1s;}
 
 
-.project-sorting label {    display: inline-block;    padding-top: 5px; }
+.project-sorting label {    display: inline-block;    padding-top: 3px; }
 
 /* [page=settings]  */
  .settings-general-menu   .card-body {  height: calc( 85vh - 140px ); overflow-y: auto;  }
