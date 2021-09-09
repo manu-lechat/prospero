@@ -247,7 +247,7 @@ th:nth-child(1):before{ display: none; }
 .project-infos-container .edition-widget.editable:hover{ color: var(--color_2);; }
 
 .template_listing .listing_modale_wrapper .tags-input .badge {    background: none;    border: 1px solid white!important; color: white border-radius:20px; }
-
+.template_listing .listing_modale_wrapper .card-header:first-child{ padding: 0; }
 .tags-input .dropdown{ padding: 0; }
 
 
