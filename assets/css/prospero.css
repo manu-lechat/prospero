@@ -246,7 +246,7 @@ th:nth-child(1):before{ display: none; }
 .template_listing .listing_modale_wrapper .edition-widget{ color: white; }
 .template_listing .project-infos-container .edition-widget.editable:hover *{ color: var(--color_2)!important; border-color: var(--color_2)!important ; }
 
-.template_listing .listing_modale_wrapper .tags-input .badge {    background: none;    border: 1px solid white!important; color: white }
+.template_listing .listing_modale_wrapper .tags-input .badge {    background: none;   border: 1px solid white!important; color: white }
 .template_listing .listing_modale_wrapper .edition-widget.editable:hover .tags-input .badge {  color: var(--color_2); }
 
 .template_listing .project-infos-container .edition-widget.editable:hover .tags-input .badge {      border: 1px solid var(--color_2)!important; color: var(--color_2)!important;  }
@@ -282,7 +282,7 @@ th:nth-child(1):before{ display: none; }
 .table-col-title .sort-filters .sort-filter {  margin-left: 3px;   cursor: pointer;  display: flex;  justify-content: center;  align-content: center;  flex-wrap: nowrap; flex-direction: column;   align-items: center;}
 .form-check {    float: left;    clear: left; }
 
-.tags-input .badge{ background:#F6F6F6; border: 1px solid grey!important; color:grey border-radius:20px; margin: 5px 5px 5px 0; }
+.tags-input .badge{ background:#F6F6F6; border-color: grey!important; color:grey; border-radius:20px; margin: 5px 5px 5px 0; }
 .tags-input .badge .remove{ border: none!important; opacity: 0.3; font-size: 0.8em; }
 .tags-input .badge:hover .remove{  opacity: 1; transition: all .1s;}
 
