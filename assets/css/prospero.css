@@ -274,8 +274,8 @@ th:nth-child(1):before{ display: none; }
 .tags-input .badge .remove{ border: none!important; opacity: 0.3; font-size: 0.8em; }
 .tags-input .badge:hover .remove{  opacity: 1; transition: all .1s;}
 
-
-.project-sorting label {    display: inline-block;    padding-top: 3px; }
+.project-sorting { margin-top: -5px; }
+.project-sorting label {     display: inline-block;   padding-top: 6px; }
 
 /* [page=settings]  */
  .settings-general-menu   .card-body {  height: calc( 85vh - 140px ); overflow-y: auto;  }
