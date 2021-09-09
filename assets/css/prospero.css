@@ -176,9 +176,9 @@ th:nth-child(1):before{ display: none; }
 .main_header .main_header_left h2{ padding-right: 120px;  font-size: calc( var(--fontSize_unit) *1.4 );  }
 
 .main_header .search_container{ height: 60%; text-align: left; display: flex; flex-direction: column; justify-content: space-around; }
-.main_header .search_form{ border-radius: 3em; background: var(--color_6); width: 16em; display: flex; }
+.main_header .search_form{ border-radius: 3em; background: var(--color_6); width: 16em; height: 2.2em; display: flex; position: relative; }
 .main_header .search_form .search_input{ color: var(--color_3); outline: none; border: none; padding: 0.3em 0 0 1.5em ; background: none; width: 16em; }
-.main_header .search_form .btn{ line-height: unset;   }
+.main_header .search_form .btn{ line-height: unset; position: absolute; right: 3px;   }
 .main_header .search_form .btn svg{fill:var(--color_4); transition: all .17s; height: 24px; width: auto;   }
 .main_header .search_form .btn:hover svg{ fill:var(--color_1); }
 .main_header .navbar_container{ text-align: left; display: flex; flex-direction: column; justify-content: space-around; flex-wrap: wrap;  }
