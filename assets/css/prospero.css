@@ -260,7 +260,7 @@ th:nth-child(1):before{ display: none; }
 
 .sort-filters{ width: 20px; height: 20px;  }
 .sort-filter{  position: relative; font-size: 0;  background: #F6F6F6; width: 17px; height: 15px; border-radius: 5px; display: block; }
-.sort-filter:after{ content: ""; width: 0; z-index: 2; height: 0; border-left: 4.5px solid transparent;  border-right: 4.5 solid transparent;   border-top:4.5 solid #CCCCCC; }
+.sort-filter:after{ content: ""; width: 0; z-index: 2; height: 0; border-left: 4.5px solid transparent;  border-right: 4.5px solid transparent;   border-top:4.5px solid #CCCCCC; }
 .sort-filter:hover:after{  border-top: 4.5px solid #999; }
 .sort-filter.selected{  border-top: 4.5px solid var(--color_2);  }
 
