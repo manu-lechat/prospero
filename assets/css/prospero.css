@@ -248,7 +248,10 @@ th:nth-child(1):before{ display: none; }
 .tags-input .dropdown{ padding: 0; }
 
 
-.template_listing .listing_modale_wrapper svg *{ fill:white; color:white; }
+.template_listing .listing_modale_wrapper svg *{ fill:white;  }
+
+.template_listing .listing_modale_wrapper .card-header .btn svg * {  fill:white; }
+
 
 .template_listing .cartouche_users .vertical{     border-left: 1px solid white; }
 .template_listing .cartouche .separation {   border-bottom: 1px solid white; }
