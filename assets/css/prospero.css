@@ -208,7 +208,7 @@ th:nth-child(1):before{ display: none; }
 
 .main_article{ font-style:italic }
 
-.cartouche{ display: flex; flex-direction: column;  width: 100%;  padding: var(--gutter_unit); }
+.cartouche{ /* display: flex; flex-direction: column; */  width: 100%;  padding: var(--gutter_unit); }
 .cartouche .cartouche_item{  padding: 0.25em 0; }
 .cartouche label{ margin-right: .5em; opacity: 0.8; }
 .cartouche .label{ opacity: 0.8; }
