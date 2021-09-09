@@ -270,7 +270,7 @@ th:nth-child(1):before{ display: none; }
 
 .form-check {    float: left;    clear: left; }
 
-.tags-input .badge{ background:#F6F6F6; border: 1px solid grey!important; border-radius:20px; margin: 5px 5px 5px 0; }
+.tags-input .badge{ background:#F6F6F6; border: 1px solid grey!important; color:grey border-radius:20px; margin: 5px 5px 5px 0; }
 .tags-input .badge .remove{ border: none!important; opacity: 0.3; font-size: 0.8em; }
 .tags-input .badge:hover .remove{  opacity: 1; transition: all .1s;}
 
