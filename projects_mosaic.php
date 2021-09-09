@@ -238,7 +238,7 @@
                             <div class="separation"></div>
 
 
-                <table class="cartouche_users">
+                    <table class="cartouche_users">
 
                             <tr>
                                 <th class="th members" colspan="2">Members</th>
