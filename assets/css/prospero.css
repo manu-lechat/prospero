@@ -247,7 +247,14 @@ th:nth-child(1):before{ display: none; }
 .template_listing .project-infos-container .edition-widget.editable:hover{ color: var(--color_2); }
 
 .template_listing .listing_modale_wrapper .tags-input .badge {    background: none;    border: 1px solid white!important; color: white }
+.template_listing .listing_modale_wrapper .edition-widget.editable:hover .tags-input .badge {  color: var(--color_2); }
+
 .template_listing .project-infos-container .edition-widget.editable:hover .tags-input .badge {      border: 1px solid var(--color_2)!important; color: var(--color_2)!important;  }
+
+
+
+
+
 
 .template_listing .listing_modale_wrapper .card-header:first-child{ padding: 0; }
 .tags-input .dropdown{ padding: 0; }
