@@ -279,8 +279,9 @@ th:nth-child(1):before{ display: none; }
 
 /* [page=settings]  */
  .settings-general-menu   .card-body {  height: calc( 85vh - 140px ); overflow-y: auto;  }
-.form-check-input:focus {    border-color: none;    outline: 0;    box-shadow: none; }
-/*
+.form-check-input:focus {    border-color: none!important;    outline: none!important;    box-shadow: none!important; }
+
+
 
 
 /^^^^^^^                                                                        
