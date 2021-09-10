@@ -246,7 +246,7 @@ th:nth-child(1):before{ display: none; }
 
 .template_listing .project-infos-container .edition-widget{ color: white; }
 .template_listing .project-infos-container .edition-widget.editable:hover { color: var(--color_2)!important; border-color: var(--color_2)!important ; }
-.template_listing .project-infos-container .edition-widget.editable:hover *{ color: var(--color_2)!important; border-color: var(--color_2)!important ; }
+.template_listing .project-infos-container .edition-widget.editable:hover *{ color: red; border-color: red ; }
 
 .template_listing .project-infos-container .tags-input .badge { margin: 5px 0 5px 5px;   background: none;    border-color: white!important; color: white }
 /* .template_listing .project-infos-container .edition-widget.editable:hover .tags-input .badge {  border-color: var(--color_2)!important; color: var(--color_2)!important;  } */
