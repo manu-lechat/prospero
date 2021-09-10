@@ -250,7 +250,7 @@ th:nth-child(1):before{ display: none; }
 
 .template_listing .editable:hover  .badge *{  border-color: var(--color_2)!important; color: var(--color_2)!important;  }
 
-
+.template_listing .project-infos-container .edition-widget.editable:hover .badge *{  border-color: var(--color_2)!important; color: var(--color_2)!important;  }
 
 
 .template_listing .project-infos-container .edition-widget.editable:hover .tags-input .badge {   border-color: var(--color_2)!important; color: var(--color_2)!important  }
