@@ -246,9 +246,9 @@ th:nth-child(1):before{ display: none; }
 .template_listing .listing_modale_wrapper .edition-widget{ color: white; }
 .template_listing .project-infos-container .edition-widget.editable:hover { color: var(--color_2)!important; border-color: var(--color_2)!important ; }
 
-.template_listing .listing_modale_wrapper .tags-input .badge {    background: none;   border: 1px solid white!important; color: white }
+.template_listing  .tags-input .badge *{    background: none;   border: 1px solid white!important; color: white }
 
-.template_listing .editable:hover  .badge {  border-color: var(--color_2)!important; color: var(--color_2)!important;  }
+.template_listing .editable:hover  .badge *{  border-color: var(--color_2)!important; color: var(--color_2)!important;  }
 
 
 
